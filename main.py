@@ -10,6 +10,9 @@ class Flower:
         # Format the flower information
         return f"Age: {self.age} weeks, Height: {self.height} cm"
 #==========================================================================#
+
+print('hello world')
+
 def display_text(text, turtle_obj, x, y):
     # Move the turtle to the specified position
     turtle_obj.penup()
@@ -72,3 +75,4 @@ display_dot(t, -200,  -60, Flower5.height)
 
 # Keep the window open until closed by the user
 turtle.done()
+
